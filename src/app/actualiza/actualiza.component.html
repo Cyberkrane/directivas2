@@ -1,0 +1,16 @@
+<p class="mt-5">ACTUALIZANDO ..........</p>
+<div class="col-4 mx-auto">
+    
+    <label for="nombre">Nombre</label>
+    <input [(ngModel)]="Qnombre" class="form-control" name="nombre" type="text">
+    <label for="apellido">Apellido</label>
+    <input [(ngModel)]="Qapellido" class="form-control" name="apellido" type="text">
+    <label for="cargo">Cargo</label>
+    <input [(ngModel)]="Qcargo" class="form-control" name="cargo" type="text">
+    <label for="salario">Salario</label>
+    <input [(ngModel)]="Qsalario" class="form-control" name="salario" type="number">
+    <button type="submit" class="btn btn-primary mt-3" (click)="actualizaEmpleado()">Accion</button>
+    <!-- <button type="submit" class="btn btn-danger mt-3 mx-2" (click)="eliminaEmpleado()">eliminar</button> -->
+  </div>
+
+<app-boton></app-boton>
